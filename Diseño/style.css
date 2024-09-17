@@ -1,0 +1,43 @@
+#Cuerpo{
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 12px, 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgb(0,0,0,0.1);
+}
+
+#Barra-Navegacion{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#titulo{
+    display: flex;
+    margin: 0;
+
+}
+
+#menu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#menu li{
+    margin-left: 25px;
+}
+
+#menu a{
+    display: flex;
+    text-decoration: none;
+    padding: 109px,15px;
+    color: #000;
+}
