@@ -1,0 +1,26 @@
+.playlist-container{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    margin-top: 27px;
+}
+
+.playlist-container img{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.playlist-container p{
+    font-size: 1.2em;
+}
+
+a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
