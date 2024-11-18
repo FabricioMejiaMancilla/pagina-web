@@ -1,26 +1,46 @@
-.playlist-container{
+body {
+    background-image: linear-gradient(270deg, #009dbd 0, #009ccd 3.57%, #009bdc 7.14%, #009ae9 10.71%, #0098f4 14.29%, #0095fd 17.86%, #0091ff 21.43%, #008dff 25%, #0088ff 28.57%, #0082ff 32.14%, #147bff 35.71%, #6173fb 39.29%, #866af1 42.86%, #a260e6 46.43%, #b855d8 50%, #ca4ac9 53.57%, #d93eb8 57.14%, #e433a7 60.71%, #ec2a95 64.29%, #f12483 67.86%, #f42471 71.43%, #f42960 75%, #f1334e 78.57%, #ed3d3d 82.14%, #e6482b 85.71%, #de5217 89.29%, #d45c00 92.86%, #c86600 96.43%, #bb6e00 100%);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+#playlist-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.playlist-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 20px 0;
-    margin-top: 27px;
+    text-align: center;
+    margin: 0;
 }
 
-.playlist-container img{
-    width: 150px;
-    height: 150px;
-    margin-right: 20px;
-    border-radius: 20px;
+.playlist-container img {
+    width: 100%; 
+    max-width: 350px; 
+    height: 200px;
+    object-fit: cover;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
 }
 
-.playlist-container p{
+.playlist-container p {
     font-size: 1.2em;
 }
 
-a{
-    color: #007bff;
+a {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }

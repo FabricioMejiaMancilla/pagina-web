@@ -1,27 +1,36 @@
+body{
+    background-image: linear-gradient(270deg, #009dbd 0, #009ccd 3.57%, #009bdc 7.14%, #009ae9 10.71%, #0098f4 14.29%, #0095fd 17.86%, #0091ff 21.43%, #008dff 25%, #0088ff 28.57%, #0082ff 32.14%, #147bff 35.71%, #6173fb 39.29%, #866af1 42.86%, #a260e6 46.43%, #b855d8 50%, #ca4ac9 53.57%, #d93eb8 57.14%, #e433a7 60.71%, #ec2a95 64.29%, #f12483 67.86%, #f42471 71.43%, #f42960 75%, #f1334e 78.57%, #ed3d3d 82.14%, #e6482b 85.71%, #de5217 89.29%, #d45c00 92.86%, #c86600 96.43%, #bb6e00 100%);
+}
+
+
 .videos-seccion{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    
 }
 
 .video-contenido{
     flex: 1 1 300px;
     max-width: 900px;
     margin: 10px;
-    margin-top: 27px;
     text-align: center;
 }
 
 video{
+    margin-top: 35px;
     width: 100%;
     max-width: 1000px;
     border-radius: 10px;
+    margin-left: 300px;
     box-shadow: 0  4px 8px rgba(0, 0, 0, 0.2);
-}
+}   
 
 p{
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 10px;
     font-size: 1em;
-    color: #555;
+    margin-left: 600px;
+    color: black
 }
